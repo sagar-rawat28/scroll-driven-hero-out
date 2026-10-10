@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 520" role="img" aria-label="Top view of a sports car">
+  <defs>
+    <linearGradient id="body" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#b8330a"/>
+      <stop offset="0.5" stop-color="#ff6a2b"/>
+      <stop offset="1" stop-color="#b8330a"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#1b2433"/>
+      <stop offset="1" stop-color="#05070b"/>
+    </linearGradient>
+    <radialGradient id="shadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#000" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="120" cy="268" rx="118" ry="248" fill="url(#shadow)"/>
+  <rect x="14" y="92" width="26" height="72" rx="11" fill="#0b0c10"/>
+  <rect x="200" y="92" width="26" height="72" rx="11" fill="#0b0c10"/>
+  <rect x="12" y="340" width="30" height="82" rx="12" fill="#0b0c10"/>
+  <rect x="198" y="340" width="30" height="82" rx="12" fill="#0b0c10"/>
+  <path d="M120 10 C168 10 192 52 198 118 C203 170 200 214 204 262 C208 318 206 384 196 440 C190 478 160 506 120 506 C80 506 50 478 44 440 C34 384 32 318 36 262 C40 214 37 170 42 118 C48 52 72 10 120 10 Z" fill="url(#body)"/>
+  <path d="M120 10 C168 10 192 52 198 118 C150 96 90 96 42 118 C48 52 72 10 120 10 Z" fill="#ffffff" opacity="0.08"/>
+  <path d="M120 30 L120 92" stroke="#7d2205" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M62 150 C84 128 156 128 178 150 L170 212 C150 206 90 206 70 212 Z" fill="url(#glass)"/>
+  <path d="M72 226 C96 220 144 220 168 226 L172 300 C150 306 90 306 68 300 Z" fill="url(#glass)" opacity="0.92"/>
+  <path d="M70 318 C94 312 146 312 170 318 L164 372 C144 378 96 378 76 372 Z" fill="url(#glass)"/>
+  <path d="M62 150 C84 128 156 128 178 150" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M58 72 C70 56 88 50 98 52 L96 66 C84 66 70 72 62 84 Z" fill="#fff6d6"/>
+  <path d="M182 72 C170 56 152 50 142 52 L144 66 C156 66 170 72 178 84 Z" fill="#fff6d6"/>
+  <path d="M60 470 C76 482 96 486 108 486 L108 476 C94 476 76 470 66 458 Z" fill="#e11d2e"/>
+  <path d="M180 470 C164 482 144 486 132 486 L132 476 C146 476 164 470 174 458 Z" fill="#e11d2e"/>
+  <path d="M54 188 L40 178 L40 168 L56 176 Z M186 188 L200 178 L200 168 L184 176 Z" fill="#8f2606"/>
+</svg>

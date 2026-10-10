@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  background: #07080b;
+}
+
+body {
+  margin: 0;
+  background: #07080b;
+  color: #f4f6fa;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer utilities {
+  .will-animate {
+    will-change: transform, opacity;
+  }
+}
